@@ -48,6 +48,20 @@ $ npm test
 Hoar#compare( String version1, String version2, String condition ) : Boolean
 
 /*
+ * Check if a version is between a range, specifying a 2-element Array,
+ * representing the lower and the higher bounds for version.
+ *
+ * NOTE: for default, strict ('<','>') operators are used for range
+ * comparisons, optionally you can use the 'nostrict' option:
+ *
+ * - 0, for range[ 0 ] <  version <  range[ 1 ]
+ * - 1, for range[ 0 ] <= version <  range[ 1 ]
+ * - 2, for range[ 0 ] <  version <= range[ 1 ]
+ * - 3, for range[ 0 ] <= version <= range[ 1 ]
+ */
+Hoar#range( String version, Array range [, Number nostrict ] ) : Boolean
+
+/*
  * Parse a version string, optionally specifying an array for result,
  * and/or a filter function to be applied to every identifier.
  * It splits the string into a nested Array containing all elements
@@ -72,6 +86,8 @@ Hoar#parse( String version [, Array result [, Function filter ] ] ) : Array
  * logging info about a #parse result: Hoar.print( Hoar.parse( '..' ) );
  */
 Hoar#print( Array ) : undefined
+
+
 ```
 
 ------------------------------------------------------------------------
