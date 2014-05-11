@@ -1,0 +1,39 @@
+{
+  "name": "hoar",
+  "version": "0.1.0",
+  "description": "Hoar, a light semantic versioning parser/comparator.",
+  "homepage": "https://github.com/rootslab/hoar",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rootslab/hoar.git"
+  },
+  "keywords": [
+    "semver",
+    "semantic versioning",
+    "dependency",
+    "dependency hell",
+    "parser",
+    "hoar"
+  ],
+  "author": {
+    "name": "Guglielmo Ferri",
+    "email": "44gatti@gmail.com"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "main": "index",
+  "engines": {
+    "node": ">=0.6.x"
+  },
+  "scripts": {
+    "test": "bash test/run.sh",
+    "bench": "bash bench/run.sh"
+  },
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/rootslab/hoar/issues"
+  }
+}
