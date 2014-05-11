@@ -8,7 +8,7 @@
 
 > **_Hoar_**, a light semantic versioning parser/comparator.
 
-> A **_semantic version_**, or **_semver_**, is described by the **v2.0.0** specification found at __http://semver.org/__ or __[github repo](https://github.com/mojombo/semver/blob/master/semver.md)__.
+> A **_semantic version_**, or **_semver_**, is described by the **v2.0.0** specification found at __http://semver.org/__ or at this __[github repo](https://github.com/mojombo/semver/blob/master/semver.md)__.
 
 ###Install
 
