@@ -8,7 +8,7 @@
 
 > **_Hoar_**, a light semantic versioning parser/comparator.
 
-> A "version" is described by the v2.0.0 specification found at http://semver.org/ or [github repo](https://github.com/mojombo/semver/blob/master/semver.md).
+> A "semantic version", or "semver", is described by the v2.0.0 specification found at http://semver.org/ or [github repo](https://github.com/mojombo/semver/blob/master/semver.md).
 
 ###Install
 
@@ -55,21 +55,21 @@ Hoar#compare( String version1, String version2, String condition ) : Boolean
  *
  * Example:
  *
+ * A call to parse produces a list of 1 or 2 arrays, the first containing
+ * the normal version identifiers, the second containing pre-release
+ * identifiers, if any exist ( sub-string after '-' ).
+ * List of identifiers about build meta data ( sub-string after '+' ),
+ * was pushed to the normal or pre-release version array.
+ *
  * parse( "1.0.1-pre.1.x+build001" );
  *
- * produces a list of 1 or 2 arrays, the first containing normal
- * version identifiers, the second containing pre-release
- * identifiers ( after '-' ), if any exist.
- * Build meta data ( after '+' ), was pushed as an array of identifiers
- * to the array it belongs to ( normal or pre-release side of list ).
- *
- * [ [ 1, 0, 1 ], [ 'pre', 1,'x', [ 'build001', 0, 0 ] ] ]
+ * [ [ 1, 0, 1 ], [ 'pre', 1,'x', [ 'build001' ] ] ]
  *
  */
-Hoar#parse( String version [, Array result [, Function filter ] ) : Array
+Hoar#parse( String version [, Array result [, Function filter ] ] ) : Array
 
 /*
- * log info about a #parse result: Hoar.print( Hoar.parse( '..' ) );
+ * logging info about a #parse result: Hoar.print( Hoar.parse( '..' ) );
  */
 Hoar#print( Array ) : undefined
 ```
