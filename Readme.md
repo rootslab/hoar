@@ -78,7 +78,7 @@ Hoar#neq( String v1, String v2 ) : Boolean
  * - 2, for range[ 0 ] <  version <= range[ 1 ]
  * - 3, for range[ 0 ] <= version <= range[ 1 ]
  */
-Hoar#range( String version | Array versions, Array range [, Number nostrict ] ) : Boolean
+Hoar#range( String version | Array versions, Array range [, Number nostrict [, Boolean debug ] ] ) : Boolean
 
 /*
  * Parse a version string, optionally specifying an array for result,
