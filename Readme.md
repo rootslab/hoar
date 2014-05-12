@@ -38,7 +38,7 @@ $ npm test
 
 ###Methods
 
-> Arguments within [ ] are optional.
+> Arguments within [ ] are optional, '|' indicates multiple type for an argument.
 
 ```javascript
 /*
@@ -66,8 +66,9 @@ Hoar#gte( String v1, String v2 ) : Boolean
 Hoar#neq( String v1, String v2 ) : Boolean
 
 /*
- * Check if a version is between a range, specifying a 2-element Array,
- * representing the lower and the higher bounds for version.
+ * Check if a version, or a list of versions, is/are between a range.
+ * The range is specified as a 2-element Array; elements respectively
+ * represent the lower and the higher bounds for a version range.
  *
  * NOTE: for default, strict ('<','>') operators are used for range
  * comparisons, optionally you can use the 'nostrict' option:
@@ -77,7 +78,7 @@ Hoar#neq( String v1, String v2 ) : Boolean
  * - 2, for range[ 0 ] <  version <= range[ 1 ]
  * - 3, for range[ 0 ] <= version <= range[ 1 ]
  */
-Hoar#range( String version, Array range [, Number nostrict ] ) : Boolean
+Hoar#range( String version | Array versions, Array range [, Number nostrict ] ) : Boolean
 
 /*
  * Parse a version string, optionally specifying an array for result,
