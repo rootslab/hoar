@@ -51,6 +51,21 @@ $ npm test
 Hoar#compare( String version1, String version2, String condition ) : Boolean
 
 /*
+ * Some #compare shortcuts for '=', '<', '>', '<=', '>=', '<>'
+ */
+Hoar#eq( String v1, String v2 ) : Boolean
+
+Hoar#lt( String v1, String v2 ) : Boolean
+
+Hoar#gt( String v1, String v2 ) : Boolean
+
+Hoar#lte( String v1, String v2 ) : Boolean
+
+Hoar#gte( String v1, String v2 ) : Boolean
+
+Hoar#neq( String v1, String v2 ) : Boolean
+
+/*
  * Check if a version is between a range, specifying a 2-element Array,
  * representing the lower and the higher bounds for version.
  *
