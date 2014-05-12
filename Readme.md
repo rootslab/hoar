@@ -44,6 +44,9 @@ $ npm test
 /*
  * Compare 2 versions with a condition.
  * Following conditions are supported: '=', '<', '>', '<=', '>=', '<>'
+ *
+ * NOTE: it is compliant with all precedence rules specified in the
+ * "Semver 2.0" specification.
  */
 Hoar#compare( String version1, String version2, String condition ) : Boolean
 
@@ -67,13 +70,16 @@ Hoar#range( String version, Array range [, Number nostrict ] ) : Boolean
  * It splits the string into a nested Array containing all elements
  * parsed.
  *
+ * NOTE: For default filter function gets the current string element parsed
+ * andremoves all non alpha-numeric chars, then convert string number to numbers.
+ *
  * Example:
  *
  * A call to parse produces a list of 1 or 2 arrays, the first containing
  * the normal version identifiers, the second containing pre-release
  * identifiers, if any exist ( sub-string after '-' ).
  * List of identifiers about build meta data ( sub-string after '+' ),
- * was pushed to the normal or pre-release version array.
+ * was pushed to the 'normal version' or 'pre-release version' array.
  *
  * parse( "1.0.1-pre.1.x+build001" );
  *
