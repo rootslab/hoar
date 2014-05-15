@@ -43,12 +43,13 @@ $ npm test
 ```javascript
 /*
  * Compare 2 versions with a condition.
+ * A version could be also specified through an Array like: [ 1, 0, 0 ].
  * Following conditions are supported: '=', '<', '>', '<=', '>=', '<>'
  *
  * NOTE: it is compliant with all precedence rules specified in the
  * "Semver 2.0" specification.
  */
-Hoar#compare( String version1, String version2, String condition ) : Boolean
+Hoar#compare( String version1 | Array semver, String version2 | Array semver, String condition ) : Boolean
 
 /*
  * Some #compare shortcuts for '=', '<', '>', '<=', '>=', '<>'
@@ -95,7 +96,7 @@ Hoar#range( String version | Array versions, Array range [, Number nostrict [, B
  * the normal version identifiers, the second containing pre-release
  * identifiers, if any exist ( sub-string after '-' ).
  * List of identifiers about build meta data ( sub-string after '+' ),
- * was pushed to the 'normal version' or 'pre-release version' array.
+ * will be pushed to the 'normal version' or 'pre-release version' array.
  *
  * parse( "1.0.1-pre.1.x+build001" );
  *
