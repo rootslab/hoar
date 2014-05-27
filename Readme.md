@@ -49,22 +49,22 @@ $ npm test
  * NOTE: it is compliant with all precedence rules specified in the
  * "Semver 2.0" specification.
  */
-Hoar#compare( String version1 | Array semver, String version2 | Array semver, String condition ) : Boolean
+Hoar#compare( String version1 | Array semver1, String version2 | Array semver2, String condition ) : Boolean
 
 /*
  * Some #compare shortcuts for '=', '<', '>', '<=', '>=', '<>'
  */
-Hoar#eq( String v1, String v2 ) : Boolean
+Hoar#eq( String v1 | Array semver1, String v2 | Array semver2 ) : Boolean
 
-Hoar#lt( String v1, String v2 ) : Boolean
+Hoar#lt( String v1 | Array semver1, String v2 | Array semver2 ) : Boolean
 
-Hoar#gt( String v1, String v2 ) : Boolean
+Hoar#gt( String v1 | Array semver1, String v2 | Array semver2 ) : Boolean
 
-Hoar#lte( String v1, String v2 ) : Boolean
+Hoar#lte( String v1 | Array semver1, String v2 | Array semver2 ) : Boolean
 
-Hoar#gte( String v1, String v2 ) : Boolean
+Hoar#gte( String v1 | Array semver1, String v2 | Array semver2 ) : Boolean
 
-Hoar#neq( String v1, String v2 ) : Boolean
+Hoar#neq( String v1 | Array semver1, String v2 | Array semver2 ) : Boolean
 
 /*
  * Check if a version, or a list of versions, is/are between a range.
@@ -87,8 +87,9 @@ Hoar#range( String version | Array versions, Array range [, Number nostrict [, B
  * It splits the string into a nested Array containing all elements
  * parsed.
  *
- * NOTE: For default filter function gets the current string element parsed
- * andremoves all non alpha-numeric chars, then convert string number to numbers.
+ * NOTE: For default filter function gets the current string parsed and
+ * removes all non alpha-numeric chars, then convert a string representation
+ * of a number to a Number.
  *
  * Example:
  *
@@ -106,9 +107,9 @@ Hoar#range( String version | Array versions, Array range [, Number nostrict [, B
 Hoar#parse( String version [, Array result [, Function filter ] ] ) : Array
 
 /*
- * logging info about a #parse result: Hoar.print( Hoar.parse( '..' ) );
+ * printing infos about a #parse result: Hoar.print( Hoar.parse( '..' ) );
  */
-Hoar#print( Array ) : undefined
+Hoar#print( Array semver ) : undefined
 
 
 ```
