@@ -1,10 +1,19 @@
 ###Hoar
-[![build status](https://secure.travis-ci.org/rootslab/hoar.png?branch=master)](http://travis-ci.org/rootslab/hoar) 
-[![NPM version](https://badge.fury.io/js/hoar.png)](http://badge.fury.io/js/hoar)
 
-[![NPM](https://nodei.co/npm/hoar.png?downloads=true&stars=true)](https://nodei.co/npm/hoar/)
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/hoar#mit-license)
 
-[![NPM](https://nodei.co/npm-dl/hoar.png)](https://nodei.co/npm/hoar/)
+[![NPM VERSION](http://img.shields.io/npm/v/hoar.svg)](https://www.npmjs.org/package/hoar)
+[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/hoar.svg)](http://travis-ci.org/rootslab/hoar)
+[![BUILD STATUS](http://img.shields.io/david/rootslab/hoar.svg)](https://david-dm.org/rootslab/hoar)
+
+[![NPM GRAPH1](https://nodei.co/npm-dl/hoar.png)](https://nodei.co/npm/hoar/)
+
+[![GITHUB tag](http://img.shields.io/github/tag/rootslab/hoar.svg)](https://github.com/rootslab/hoar/tags)
+[![ISSUES](http://img.shields.io/github/issues/rootslab/hoar.svg)](https://github.com/rootslab/hoar/issues)
+[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/hoar.svg)](http://npm-stat.com/charts.html?package=hoar)
+
+[![NPM GRAPH2](https://nodei.co/npm/hoar.png?downloads=true&stars=true)](https://nodei.co/npm/hoar/)
 
 > **_Hoar_**, a light semantic versioning parser/comparator.
 
