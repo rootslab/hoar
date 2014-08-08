@@ -7,7 +7,7 @@ var log = console.log
     , Hoar = require( '../' )
     , compare = Hoar.compare
     // a list of arrays
-    ver = [
+    , ver = [
         [ [ 10, 0, 30 ] ]
         , [ [ 100, 1, 1 ] ]
         , [ [ 0, 0, 1 ] ]

@@ -7,7 +7,7 @@ var log = console.log
     , Hoar = require( '../' )
     , parse = Hoar.parse
     // a list of semver strings
-    ver = [
+    , ver = [
         '1.0.1'
         , '0.1.0+build.01.x.14'
         , '10.0.8-dev.89.78+10.build.alpha.10'
