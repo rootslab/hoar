@@ -3,7 +3,6 @@
  */
 
 var log = console.log
-    , util = require( 'util' )
     , Hoar = require( '../' )
     , parse = Hoar.parse
     // a list of semver strings
@@ -26,4 +25,4 @@ for ( ; i < vlen; v = ver[ ++i ] ) {
          , util.inspect( parse( v ), false, 2, true )
         );
     Hoar.print( parse( v ) );
-};
+}

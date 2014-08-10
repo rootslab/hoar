@@ -3,7 +3,6 @@
  */
 
 var log = console.log
-    , util = require( 'util' )
     , Hoar = require( '../' )
     , compare = Hoar.compare
     // a list of numeric strings
@@ -19,11 +18,10 @@ var log = console.log
     , vlen = ver.length
     , cond = [ '<', '>', '<=', '>=', '=' ]
     , clen = cond.length
-    , v = ver[ 0 ]
     , i = 0
     , j = 0
     , k = 0
-    , t = 0
+    , c = 0
     ;
 
 // run all possible comparisons
@@ -34,6 +32,6 @@ for ( ; i < vlen; j = ++i ) {
                 ver[ i ], cond[ c ], ver[ j ],
                 compare( ver[ i ], ver[ j ], cond[ c ] )
             );
-        };
-    };
-};
+        }
+    }
+}
