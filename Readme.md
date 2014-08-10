@@ -1,5 +1,8 @@
 ###Hoar
 
+[![CODECLIMATE](https://codeclimate.com/github/rootslab/hoar/badges/gpa.svg)](https://codeclimate.com/github/rootslab/hoar)
+[![CODECLIMATE-TEST-COVERAGE](https://codeclimate.com/github/rootslab/hoar/badges/coverage.svg)](https://codeclimate.com/github/rootslab/hoar)
+
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/hoar#mit-license)
 [![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
 [![NPM DOWNLOADS](http://img.shields.io/npm/dm/hoar.svg)](http://npm-stat.com/charts.html?package=hoar)

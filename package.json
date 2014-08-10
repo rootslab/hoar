@@ -1,6 +1,6 @@
 {
   "name": "hoar",
-  "version": "0.7.2",
+  "version": "0.7.4",
   "description": "Hoar, a light semantic versioning parser/comparator.",
   "homepage": "https://github.com/rootslab/hoar",
   "private": false,
@@ -25,7 +25,7 @@
   "devDependencies": {},
   "main": "index",
   "engines": {
-    "node": ">=0.6.x"
+    "node": ">=0.8.x"
   },
   "scripts": {
     "test": "bash test/run.sh",

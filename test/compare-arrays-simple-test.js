@@ -50,7 +50,7 @@ for ( ; i < vlen; j = ++i ) {
                 ver[ i ], cond[ c ], ver[ j ],
                 compare( ver[ i ], ver[ j ], cond[ c ] )
             );/**/
-            equal(  compare( ver[ i ], ver[ j ], cond[ c ] ), compare( tver[ i ], tver[ j ], cond[ c ] ) );
+            equal( compare( ver[ i ], ver[ j ], cond[ c ] ), compare( tver[ i ], tver[ j ], cond[ c ] ) );
         };
     };
 };
