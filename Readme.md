@@ -17,7 +17,7 @@
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/hoar.png)](https://nodei.co/npm/hoar/)
 
-[![NPM GRAPH2](https://nodei.co/npm/hoar.png?downloads=true&stars=true)](https://nodei.co/npm/hoar/)
+[![NPM GRAPH2](https://nodei.co/npm/hoar.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/hoar/)
 
 > **_Hoar_**, a light semantic versioning parser/comparator.
 
