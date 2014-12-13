@@ -1,10 +1,10 @@
 ###Hoar
 
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/hoar#mit-license)
+[![NPM VERSION](http://img.shields.io/npm/v/hoar.svg)](https://www.npmjs.org/package/hoar)
 [![CODECLIMATE](https://codeclimate.com/github/rootslab/hoar/badges/gpa.svg)](https://codeclimate.com/github/rootslab/hoar)
 [![CODECLIMATE-TEST-COVERAGE](https://codeclimate.com/github/rootslab/hoar/badges/coverage.svg)](https://codeclimate.com/github/rootslab/hoar)
 
-[![NPM VERSION](http://img.shields.io/npm/v/hoar.svg)](https://www.npmjs.org/package/hoar)
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/hoar.svg)](http://travis-ci.org/rootslab/hoar)
 [![BUILD STATUS](http://img.shields.io/david/rootslab/hoar.svg)](https://david-dm.org/rootslab/hoar)
 [![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/hoar.svg)](https://david-dm.org/rootslab/hoar#info=devDependencies)
