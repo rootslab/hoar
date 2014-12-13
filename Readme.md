@@ -1,16 +1,18 @@
 ###Hoar
 
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/hoar#mit-license)
 [![CODECLIMATE](https://codeclimate.com/github/rootslab/hoar/badges/gpa.svg)](https://codeclimate.com/github/rootslab/hoar)
 [![CODECLIMATE-TEST-COVERAGE](https://codeclimate.com/github/rootslab/hoar/badges/coverage.svg)](https://codeclimate.com/github/rootslab/hoar)
-
-[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/hoar#mit-license)
-[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/hoar.svg)](http://npm-stat.com/charts.html?package=hoar)
 
 [![NPM VERSION](http://img.shields.io/npm/v/hoar.svg)](https://www.npmjs.org/package/hoar)
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/hoar.svg)](http://travis-ci.org/rootslab/hoar)
 [![BUILD STATUS](http://img.shields.io/david/rootslab/hoar.svg)](https://david-dm.org/rootslab/hoar)
 [![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/hoar.svg)](https://david-dm.org/rootslab/hoar#info=devDependencies)
+
+[![views](https://sourcegraph.com/api/repos/github.com/rootslab/hoar/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/hoar)
+[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/hoar/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/hoar)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/hoar.svg)](http://npm-stat.com/charts.html?package=hoar)
+[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/hoar.png)](https://nodei.co/npm/hoar/)
 
@@ -149,3 +151,5 @@ Hoar#print( Array semver ) : undefined
 > CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 > TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 > SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[![GA](https://ga-beacon.appspot.com/UA-53998692-1/hoar/Readme?pixel)](https://github.com/igrigorik/ga-beacon)
