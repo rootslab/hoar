@@ -9,6 +9,7 @@
 [![BUILD STATUS](http://img.shields.io/david/rootslab/hoar.svg)](https://david-dm.org/rootslab/hoar)
 [![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/hoar.svg)](https://david-dm.org/rootslab/hoar#info=devDependencies)
 
+[![status](https://sourcegraph.com/api/repos/github.com/rootslab/hoar/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/hoar)
 [![views](https://sourcegraph.com/api/repos/github.com/rootslab/hoar/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/hoar)
 [![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/hoar/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/hoar)
 [![NPM DOWNLOADS](http://img.shields.io/npm/dm/hoar.svg)](http://npm-stat.com/charts.html?package=hoar)
