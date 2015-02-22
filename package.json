@@ -1,6 +1,6 @@
 {
   "name": "hoar"
-  , "version": "0.8.1"
+  , "version": "0.8.2"
   , "description": "Hoar, a fast and light semantic versioning parser/comparator."
   , "homepage": "https://github.com/rootslab/hoar"
   , "private": false
@@ -14,7 +14,7 @@
     , "dependency"
     , "dependency hell"
     , "parser"
-    "hoar"
+    , "hoar"
   ]
   , "author": {
     "name": "Guglielmo Ferri"
