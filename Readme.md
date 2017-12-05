@@ -1,29 +1,25 @@
-###Hoar
+### Hoar
 
 [![NPM VERSION](http://img.shields.io/npm/v/hoar.svg?style=flat)](https://www.npmjs.org/package/hoar)
 [![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg?style=flat)](https://www.codacy.com/public/44gatti/hoar)
-[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/hoar.svg?style=flat)](https://codeclimate.com/github/rootslab/hoar)
 [![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/hoar.svg?style=flat)](https://codeclimate.com/github/rootslab/hoar)
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/hoar#mit-license)
 
+![NODE VERSION](https://img.shields.io/node/v/hoar.svg)
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/hoar.svg?style=flat)](http://travis-ci.org/rootslab/hoar)
 [![BUILD STATUS](http://img.shields.io/david/rootslab/hoar.svg?style=flat)](https://david-dm.org/rootslab/hoar)
 [![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/hoar.svg?style=flat)](https://david-dm.org/rootslab/hoar#info=devDependencies)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/hoar.svg?style=flat)](http://npm-stat.com/charts.html?package=hoar)
 
-[![NPM GRAPH1](https://nodei.co/npm-dl/hoar.png)](https://nodei.co/npm/hoar/)
+[![NPM MONTHLY](http://img.shields.io/npm/dm/hoar.svg?style=flat)](http://npm-stat.com/charts.html?package=hoar)
+![NPM YEARLY](https://img.shields.io/npm/dy/hoar.svg)
 
-[![NPM GRAPH2](https://nodei.co/npm/hoar.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/hoar/)
-
-[![status](https://sourcegraph.com/api/repos/github.com/rootslab/hoar/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/hoar)
-[![views](https://sourcegraph.com/api/repos/github.com/rootslab/hoar/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/hoar)
-[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/hoar/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/hoar)
+[![NPM GRAPH](https://nodei.co/npm/hoar.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/hoar/)
 
 > **_Hoar_**, a fast and light semantic versioning parser/comparator.
 
 > A **_semantic version_**, or **_semver_**, is described by the **v2.0.0** specification found at __http://semver.org/__ or at this __[github repo](https://github.com/mojombo/semver/blob/master/semver.md)__.
 
-###Install
+### Install
 
 ```bash
 $ npm install hoar [-g]
@@ -37,19 +33,19 @@ $ git clone git@github.com:rootslab/hoar.git
 var Hoar  = require( 'hoar' );
 ```
 
-###Run Tests
+### Run Tests
 
 ```bash
 $ cd hoar/
 $ npm test
 ```
 
-###Sample Usage
+### Sample Usage
 
 > See [examples](example/).
 
 
-###Methods
+### Methods
 
 > Arguments within [ ] are optional, '|' indicates multiple type for an argument.
 
@@ -132,7 +128,7 @@ Hoar#print( Array semver ) : undefined
 
 ### MIT License
 
-> Copyright (c) 2015 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
+> Copyright (c) 2015-present &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
 
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
@@ -152,5 +148,3 @@ Hoar#print( Array semver ) : undefined
 > CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 > TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 > SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[![GA](https://ga-beacon.appspot.com/UA-53998692-1/hoar/Readme?pixel)](https://github.com/igrigorik/ga-beacon)
