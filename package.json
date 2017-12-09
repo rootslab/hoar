@@ -1,6 +1,6 @@
 {
   "name": "hoar"
-  , "version": "0.9.0"
+  , "version": "0.9.1"
   , "description": "Hoar, a fast and light semantic versioning parser/comparator."
   , "homepage": "https://github.com/rootslab/hoar"
   , "private": false
